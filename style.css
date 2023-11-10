@@ -266,3 +266,25 @@ div.pagefour section.content div.posters div.four div.image{
     width: 90%;
     height: 90%;
 }
+
+div.pagefive section.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.pagefive section.content div.bar{
+    width: 100vw;
+    height: 30vh;
+    z-index: 0;
+    background-color: rgb(80, 17, 133);
+    position: relative;
+}
+
+div.pagefive section.content div.contact{
+    background-color: white;
+    z-index: 2;
+    height: 50vh;
+    margin-right: 10vw;
+    width: 50vw;
+}
